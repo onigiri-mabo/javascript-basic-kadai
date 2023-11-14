@@ -1,2 +1,6 @@
 const todaysDate = new Date();
-console.log(todaysDate.getFullYear()+'年'+todaysDate.getMonth()+'月'+todaysDate.getDate()+'日');
+
+const year = todaysDate.getFullYear();
+const month = todaysDate.getMonth()+1;
+const date = todaysDate.getDate();
+console.log(year +'年' +month +'年' +date +'日');
